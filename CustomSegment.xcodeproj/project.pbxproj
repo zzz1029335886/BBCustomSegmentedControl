@@ -16,6 +16,29 @@
 		C4AB402E274F657C005D533D /* CustomSegmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AB402D274F657C005D533D /* CustomSegmentTests.swift */; };
 		C4AB4038274F657C005D533D /* CustomSegmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AB4037274F657C005D533D /* CustomSegmentUITests.swift */; };
 		C4AB403A274F657C005D533D /* CustomSegmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AB4039274F657C005D533D /* CustomSegmentUITestsLaunchTests.swift */; };
+		C4AB4049274F7D0A005D533D /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AB4048274F7D0A005D533D /* Extension.swift */; };
+		C4AB404B274F7ED8005D533D /* BBCustomSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AB404A274F7ED8005D533D /* BBCustomSegmentedControl.swift */; };
+		C4AB4067274F85D3005D533D /* ImageAttachmentLabelImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AB404D274F85D3005D533D /* ImageAttachmentLabelImage.swift */; };
+		C4AB4068274F85D3005D533D /* ASShadowExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AB4050274F85D3005D533D /* ASShadowExtension.swift */; };
+		C4AB4069274F85D3005D533D /* ASExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AB4051274F85D3005D533D /* ASExtension.swift */; };
+		C4AB406A274F85D3005D533D /* ASCGSizeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AB4053274F85D3005D533D /* ASCGSizeExtension.swift */; };
+		C4AB406B274F85D3005D533D /* ASCGRectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AB4054274F85D3005D533D /* ASCGRectExtension.swift */; };
+		C4AB406C274F85D3005D533D /* ASCGPointExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AB4055274F85D3005D533D /* ASCGPointExtension.swift */; };
+		C4AB406D274F85D3005D533D /* ASUITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AB4057274F85D3005D533D /* ASUITextFieldExtension.swift */; };
+		C4AB406E274F85D3005D533D /* ASUILabelLayoutManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AB4059274F85D3005D533D /* ASUILabelLayoutManagerDelegate.swift */; };
+		C4AB406F274F85D3005D533D /* ASUILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AB405A274F85D3005D533D /* ASUILabelExtension.swift */; };
+		C4AB4070274F85D3005D533D /* ASUIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AB405B274F85D3005D533D /* ASUIButtonExtension.swift */; };
+		C4AB4071274F85D3005D533D /* ASUITextViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AB405C274F85D3005D533D /* ASUITextViewExtension.swift */; };
+		C4AB4072274F85D3005D533D /* ASActionQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AB405D274F85D3005D533D /* ASActionQueue.swift */; };
+		C4AB4073274F85D3005D533D /* ASArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AB405E274F85D3005D533D /* ASArrayExtension.swift */; };
+		C4AB4074274F85D3005D533D /* ASObjectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AB405F274F85D3005D533D /* ASObjectExtension.swift */; };
+		C4AB4075274F85D3005D533D /* ASChecking.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AB4060274F85D3005D533D /* ASChecking.swift */; };
+		C4AB4076274F85D3005D533D /* ASAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AB4061274F85D3005D533D /* ASAttributedString.swift */; };
+		C4AB4077274F85D3005D533D /* ASAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AB4062274F85D3005D533D /* ASAttribute.swift */; };
+		C4AB4078274F85D3005D533D /* ASInterpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AB4063274F85D3005D533D /* ASInterpolation.swift */; };
+		C4AB4079274F85D3005D533D /* ASParagraphStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AB4064274F85D3005D533D /* ASParagraphStyle.swift */; };
+		C4AB407A274F85D3005D533D /* ASAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AB4065274F85D3005D533D /* ASAttachment.swift */; };
+		C4AB407B274F85D3005D533D /* ASAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AB4066274F85D3005D533D /* ASAction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +72,29 @@
 		C4AB4033274F657C005D533D /* CustomSegmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomSegmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4AB4037274F657C005D533D /* CustomSegmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegmentUITests.swift; sourceTree = "<group>"; };
 		C4AB4039274F657C005D533D /* CustomSegmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C4AB4048274F7D0A005D533D /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		C4AB404A274F7ED8005D533D /* BBCustomSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBCustomSegmentedControl.swift; sourceTree = "<group>"; };
+		C4AB404D274F85D3005D533D /* ImageAttachmentLabelImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageAttachmentLabelImage.swift; sourceTree = "<group>"; };
+		C4AB4050274F85D3005D533D /* ASShadowExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASShadowExtension.swift; sourceTree = "<group>"; };
+		C4AB4051274F85D3005D533D /* ASExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASExtension.swift; sourceTree = "<group>"; };
+		C4AB4053274F85D3005D533D /* ASCGSizeExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASCGSizeExtension.swift; sourceTree = "<group>"; };
+		C4AB4054274F85D3005D533D /* ASCGRectExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASCGRectExtension.swift; sourceTree = "<group>"; };
+		C4AB4055274F85D3005D533D /* ASCGPointExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASCGPointExtension.swift; sourceTree = "<group>"; };
+		C4AB4057274F85D3005D533D /* ASUITextFieldExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASUITextFieldExtension.swift; sourceTree = "<group>"; };
+		C4AB4059274F85D3005D533D /* ASUILabelLayoutManagerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASUILabelLayoutManagerDelegate.swift; sourceTree = "<group>"; };
+		C4AB405A274F85D3005D533D /* ASUILabelExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASUILabelExtension.swift; sourceTree = "<group>"; };
+		C4AB405B274F85D3005D533D /* ASUIButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASUIButtonExtension.swift; sourceTree = "<group>"; };
+		C4AB405C274F85D3005D533D /* ASUITextViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASUITextViewExtension.swift; sourceTree = "<group>"; };
+		C4AB405D274F85D3005D533D /* ASActionQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASActionQueue.swift; sourceTree = "<group>"; };
+		C4AB405E274F85D3005D533D /* ASArrayExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASArrayExtension.swift; sourceTree = "<group>"; };
+		C4AB405F274F85D3005D533D /* ASObjectExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASObjectExtension.swift; sourceTree = "<group>"; };
+		C4AB4060274F85D3005D533D /* ASChecking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASChecking.swift; sourceTree = "<group>"; };
+		C4AB4061274F85D3005D533D /* ASAttributedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASAttributedString.swift; sourceTree = "<group>"; };
+		C4AB4062274F85D3005D533D /* ASAttribute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASAttribute.swift; sourceTree = "<group>"; };
+		C4AB4063274F85D3005D533D /* ASInterpolation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASInterpolation.swift; sourceTree = "<group>"; };
+		C4AB4064274F85D3005D533D /* ASParagraphStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASParagraphStyle.swift; sourceTree = "<group>"; };
+		C4AB4065274F85D3005D533D /* ASAttachment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASAttachment.swift; sourceTree = "<group>"; };
+		C4AB4066274F85D3005D533D /* ASAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASAction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +145,7 @@
 		C4AB4015274F657A005D533D /* CustomSegment */ = {
 			isa = PBXGroup;
 			children = (
+				C4AB404C274F85D3005D533D /* ASAttributedString */,
 				C4AB4016274F657A005D533D /* AppDelegate.swift */,
 				C4AB4018274F657A005D533D /* SceneDelegate.swift */,
 				C4AB401A274F657A005D533D /* ViewController.swift */,
@@ -106,6 +153,8 @@
 				C4AB401F274F657C005D533D /* Assets.xcassets */,
 				C4AB4021274F657C005D533D /* LaunchScreen.storyboard */,
 				C4AB4024274F657C005D533D /* Info.plist */,
+				C4AB4048274F7D0A005D533D /* Extension.swift */,
+				C4AB404A274F7ED8005D533D /* BBCustomSegmentedControl.swift */,
 			);
 			path = CustomSegment;
 			sourceTree = "<group>";
@@ -125,6 +174,74 @@
 				C4AB4039274F657C005D533D /* CustomSegmentUITestsLaunchTests.swift */,
 			);
 			path = CustomSegmentUITests;
+			sourceTree = "<group>";
+		};
+		C4AB404C274F85D3005D533D /* ASAttributedString */ = {
+			isa = PBXGroup;
+			children = (
+				C4AB404D274F85D3005D533D /* ImageAttachmentLabelImage.swift */,
+				C4AB404E274F85D3005D533D /* AttributedString */,
+			);
+			path = ASAttributedString;
+			sourceTree = "<group>";
+		};
+		C4AB404E274F85D3005D533D /* AttributedString */ = {
+			isa = PBXGroup;
+			children = (
+				C4AB404F274F85D3005D533D /* Extension */,
+				C4AB4060274F85D3005D533D /* ASChecking.swift */,
+				C4AB4061274F85D3005D533D /* ASAttributedString.swift */,
+				C4AB4062274F85D3005D533D /* ASAttribute.swift */,
+				C4AB4063274F85D3005D533D /* ASInterpolation.swift */,
+				C4AB4064274F85D3005D533D /* ASParagraphStyle.swift */,
+				C4AB4065274F85D3005D533D /* ASAttachment.swift */,
+				C4AB4066274F85D3005D533D /* ASAction.swift */,
+			);
+			path = AttributedString;
+			sourceTree = "<group>";
+		};
+		C4AB404F274F85D3005D533D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C4AB4050274F85D3005D533D /* ASShadowExtension.swift */,
+				C4AB4051274F85D3005D533D /* ASExtension.swift */,
+				C4AB4052274F85D3005D533D /* CoreGraphics */,
+				C4AB4056274F85D3005D533D /* UIKit */,
+				C4AB405E274F85D3005D533D /* ASArrayExtension.swift */,
+				C4AB405F274F85D3005D533D /* ASObjectExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		C4AB4052274F85D3005D533D /* CoreGraphics */ = {
+			isa = PBXGroup;
+			children = (
+				C4AB4053274F85D3005D533D /* ASCGSizeExtension.swift */,
+				C4AB4054274F85D3005D533D /* ASCGRectExtension.swift */,
+				C4AB4055274F85D3005D533D /* ASCGPointExtension.swift */,
+			);
+			path = CoreGraphics;
+			sourceTree = "<group>";
+		};
+		C4AB4056274F85D3005D533D /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				C4AB4057274F85D3005D533D /* ASUITextFieldExtension.swift */,
+				C4AB4058274F85D3005D533D /* UILabel */,
+				C4AB405B274F85D3005D533D /* ASUIButtonExtension.swift */,
+				C4AB405C274F85D3005D533D /* ASUITextViewExtension.swift */,
+				C4AB405D274F85D3005D533D /* ASActionQueue.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		C4AB4058274F85D3005D533D /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				C4AB4059274F85D3005D533D /* ASUILabelLayoutManagerDelegate.swift */,
+				C4AB405A274F85D3005D533D /* ASUILabelExtension.swift */,
+			);
+			path = UILabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +377,30 @@
 			files = (
 				C4AB401B274F657A005D533D /* ViewController.swift in Sources */,
 				C4AB4017274F657A005D533D /* AppDelegate.swift in Sources */,
+				C4AB4077274F85D3005D533D /* ASAttribute.swift in Sources */,
+				C4AB407B274F85D3005D533D /* ASAction.swift in Sources */,
+				C4AB404B274F7ED8005D533D /* BBCustomSegmentedControl.swift in Sources */,
+				C4AB4070274F85D3005D533D /* ASUIButtonExtension.swift in Sources */,
+				C4AB406D274F85D3005D533D /* ASUITextFieldExtension.swift in Sources */,
+				C4AB4073274F85D3005D533D /* ASArrayExtension.swift in Sources */,
+				C4AB4071274F85D3005D533D /* ASUITextViewExtension.swift in Sources */,
 				C4AB4019274F657A005D533D /* SceneDelegate.swift in Sources */,
+				C4AB4076274F85D3005D533D /* ASAttributedString.swift in Sources */,
+				C4AB4049274F7D0A005D533D /* Extension.swift in Sources */,
+				C4AB406C274F85D3005D533D /* ASCGPointExtension.swift in Sources */,
+				C4AB4079274F85D3005D533D /* ASParagraphStyle.swift in Sources */,
+				C4AB4069274F85D3005D533D /* ASExtension.swift in Sources */,
+				C4AB4075274F85D3005D533D /* ASChecking.swift in Sources */,
+				C4AB406E274F85D3005D533D /* ASUILabelLayoutManagerDelegate.swift in Sources */,
+				C4AB4068274F85D3005D533D /* ASShadowExtension.swift in Sources */,
+				C4AB406B274F85D3005D533D /* ASCGRectExtension.swift in Sources */,
+				C4AB406A274F85D3005D533D /* ASCGSizeExtension.swift in Sources */,
+				C4AB407A274F85D3005D533D /* ASAttachment.swift in Sources */,
+				C4AB406F274F85D3005D533D /* ASUILabelExtension.swift in Sources */,
+				C4AB4074274F85D3005D533D /* ASObjectExtension.swift in Sources */,
+				C4AB4067274F85D3005D533D /* ImageAttachmentLabelImage.swift in Sources */,
+				C4AB4072274F85D3005D533D /* ASActionQueue.swift in Sources */,
+				C4AB4078274F85D3005D533D /* ASInterpolation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
